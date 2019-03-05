@@ -1,0 +1,9 @@
+def bs_checker_mixed(minimum, tag):
+    soup = bs.BeautifulSoup(open("text.xml"), 'lxml')
+    tag_list = soup.find_all(tag)
+    quant_elements = len(tag_list)
+    print(len(tag_list))
+    if quant_elements >= minimum and quant_elements <= maximum:
+
+        elif '|' in children[j]:
+            bs_checker_mixed(1, children[j].split('|'))
