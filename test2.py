@@ -2,6 +2,8 @@ import bs4 as bs
 
 string ='<tag> Mamaguevaso </tag>\n <taggy> Niema </taggy>'
 
+
+
 tag = 'altura'
 string = []
 #soup = bs.BeautifulSoup(string, 'lxml')
