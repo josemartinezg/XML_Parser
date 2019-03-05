@@ -1,0 +1,2 @@
+<xml version="1.0"?>
+<!ELEMENT nota ( hijo ( nieto (de+, titulo?, contenido)*))>
