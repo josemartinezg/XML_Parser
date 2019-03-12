@@ -79,9 +79,6 @@ def element_verification(content, cant_lines):
     #Se envia la lista dos veces a limpiar, para poder obtener el nombre de los elementos y sus reglas por si solos.
     aux = children_cleanup(child)
     children = children_cleanup(aux)
-    # print(parents)
-    # print(aux)
-    # print(children)
     ocurrences_rules(parents, children)
 
 
